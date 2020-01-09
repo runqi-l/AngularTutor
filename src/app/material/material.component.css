@@ -1,0 +1,25 @@
+.material{
+  display: flex;
+  flex-direction: row;
+  flex:2;
+  width: 100%;
+  margin:0;
+  align-items: center;
+  border: 5px red solid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.btn-outline-secondary{
+  width: 200px;
+  height: 200px;
+}
+
+.egg{
+  background: url("src/egg.jpg");
+}
+
+.tomato{
+  background: url("src/tomato.jpg");
+}
+
+
