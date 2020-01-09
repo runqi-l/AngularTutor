@@ -1,0 +1,7 @@
+.result{
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  border: green solid 5px;
+}

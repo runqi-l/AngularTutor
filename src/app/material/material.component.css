@@ -12,14 +12,34 @@
 .btn-outline-secondary{
   width: 200px;
   height: 200px;
+  border: none;
 }
 
 .egg{
-  background: url("src/egg.jpg");
+  background-image: url("src/egg.jpg");
+  background-size: 100% 100%;
 }
 
 .tomato{
   background: url("src/tomato.jpg");
+  background-size: 100% 100%;
 }
 
+.grounded{
+  background: url("src/groundedPork.jpg");
+  background-size: 100% 100%;
+}
 
+.carrot{
+  background: url("src/carrot.jpg");
+  background-size: 100% 100%;
+}
+
+.belly{
+  background: url("src/porkBelly.jpg");
+  background-size: 100% 100%;
+}
+.garlic{
+  background: url("src/suanmiao.jpg");
+  background-size: 100% 100%;
+}
