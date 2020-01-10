@@ -1,6 +1,26 @@
 <div class="container">
   <div class="title"><h1>MINI KITCHEN</h1></div>
-  <app-current></app-current>
-  <app-material></app-material>
-  <app-result></app-result>
+  <div class="subtitle">
+    <div>
+      点击要加入的菜：
+      <span *ngFor="let cd of materials">
+        {{ cd }}
+      </span>
+    </div>
+  </div>
+  <div class="material">
+    <button class="btn btn-outline-secondary egg" id="eggs" (click)=egg()></button>
+    <button class="btn btn-outline-secondary tomato" (click)=tomato()></button>
+    <button class="btn btn-outline-secondary grounded" (click)=grounded()></button>
+    <button class="btn btn-outline-secondary carrot" (click)=carrot()></button>
+    <button class="btn btn-outline-secondary belly" (click)=belly()></button>
+    <button class="btn btn-outline-secondary garlic" (click)=garlic()></button>
+  </div>
+  <div class="result">
+    <button class="btn btn-outline-primary submit" (click)="cancook()">开始做菜</button>
+    <button class="btn btn-outline-primary restart" (click)="reset()">再做一道菜</button>
+  </div>
+  <div class="ans">
+    {{mes}}
+  </div>
 </div>
